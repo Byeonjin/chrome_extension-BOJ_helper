@@ -1,10 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "BOJ helper",
+  "description": "내가 쓰고싶어서 만든 백준 유틸리티 익스텐션",
   "version": "1.0",
   "action": {
     "default_popup": "hello.html",
     "default_icon": "otter.png"
+  },
+  "icons": {
+    "16": "otter.png",
+    "32": "otter.png",
+    "48": "otter.png",
+    "128": "otter.png"
   }
 }
