@@ -1,4 +1,4 @@
-# chrome_extension-BOJ_helper
+# chrome_extension-BOJ_Otter_helper
 
 ## 이 확장 프로그램의 목적
 

@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "BOJ helper",
+  "name": "BOJ Otter helper",
   "description": "내가 쓰고싶어서 만든 백준 유틸리티 익스텐션",
   "version": "1.0",
   "action": {
@@ -12,5 +12,11 @@
     "32": "otter.png",
     "48": "otter.png",
     "128": "otter.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://www.acmicpc.net/problem/*"]
+    }
+  ]
 }
